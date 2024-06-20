@@ -1,0 +1,23 @@
+header{
+    width: 100vm;
+    padding: 20px;
+    background-color: var(--brown);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    h4{
+        margin: o;
+    }
+    nav{
+        display: flex;
+        gap: 15px;
+        font-weight: 15px;
+
+        a, span{
+            text-decoration: none;
+            color: var(--white);
+            font-size: 14px;
+        }
+    }
+
+}

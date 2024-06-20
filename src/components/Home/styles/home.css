@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .home_container {
+        width: 70%;
+        border: 2px solid;
+        background:url("../../../../public/images/homebg.jpg");
+        padding: 40px 80px;
+        font-size: 15px;
+        text-align: justify;
+        color: var(--white);
+        border-radius: 10px;
+
+    }
+}

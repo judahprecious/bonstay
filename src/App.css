@@ -2,10 +2,32 @@
   color:white !important;
 font-family:  cursive;
 }
-nav {
-  background-color: purple;
-}
+
 .nav-link{
   color: white !important; 
   
+}
+
+:root{
+  --brown: #88685e;
+  --cardBg: #ebe7e7;
+  --white: #fff;
+  --login-signup-link: #3882fd; 
+}
+
+.image_container{
+  width: 100%;
+  height: 100%;
+
+   img{
+     width: 100%;
+     height: 100vh;
+     position: fixed;
+     object-fit: cover;
+   }
+}
+
+.pages{
+  position: relative;
+  z-index: 100;
 }
