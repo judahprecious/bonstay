@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //import axios from "axios";
-const Addreview = () => {
+const AddReview = () => {
   //State to hold the form details that needs to be added .When user enters the values the state gets updated
   const [state, setState] = useState({
     Reviews: "",
@@ -108,4 +108,4 @@ const Addreview = () => {
   );
 };
 
-export default Addreview;
+export default AddReview;
